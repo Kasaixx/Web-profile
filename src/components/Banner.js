@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-import headere from "../assets/img/Myprofile.png";
+import headere from "../assets/img/pngprofile.png";
 
 export const Banner = () => {
     const [LoopNum, setLoopNum] = useState(0);
