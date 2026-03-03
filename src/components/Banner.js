@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headere from "../assets/img/headere.jpg";
+import { Button } from "react-bootstrap";
+import headere from "../assets/img/Myprofile.png";
 
 export const Banner = () => {
     const [LoopNum, setLoopNum] = useState(0);
@@ -57,13 +58,13 @@ export const Banner = () => {
                             <span className="wrap">{text}</span>
                         </h2>
                         <p>I am a Computer Science student with a strong interest in web development and software engineering. Although I am still building my experience, I am highly motivated to learn and improve my technical skills. I am eager to gain hands-on experience through an internship opportunity and contribute to a professional development team.</p>
+                        <Button href="/Resumetranscript.pdf" download className="resume-btn">Resume and Transcirpt</Button>  
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headere} alt="Headder Img" className="img-fluid"/>
                     </Col>
-                </Row>
+                </Row>           
             </Container>
-
         </section>
     )
 }
