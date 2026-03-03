@@ -38,19 +38,19 @@ export const Skills = () => {
                         <p></p>{/*ใส่คำอธิบายตรงสกิล*/}
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
-                                <img src={react} alt="Image" />
+                                <img src={react} alt="react" />
                                 <h3>Intermediate</h3>
                             </div>
                             <div className="item">
-                                <img src={Nodejpg} alt="Image" />
+                                <img src={Nodejpg} alt="node" />
                                 <h3>Intermediate</h3>
                             </div>
                             <div className="item">
-                                <img src={github} alt="Image" />
+                                <img src={github} alt="git" />
                                 <h3>Beginner</h3>
                             </div>
                             <div className="item">
-                                <img src={mongoDB} alt="Image" />
+                                <img src={mongoDB} alt="mongo" />
                                 <h3>Beginner</h3>
                             </div>
                         </Carousel>
