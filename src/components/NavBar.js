@@ -39,12 +39,13 @@ export const NavBar = () => {
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+            <Nav.Link href="#projects" className={activeLink === "projects" ? 'active navbar-link' : 'navbar-link'}onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon"> 
-                <a href="https://github.com/Kasaixx"><img src={github} alt=""/></a>
-                <a href="https://www.facebook.com/flook.sattawat/"><img src={navIcon2} alt=""/></a>
-                <a href="https://www.instagram.com/kasaixkori/"><img src={navIcon3} alt=""/></a>
+                <a href="https://github.com/Kasaixx" target="_blank" rel="noopener noreferrer"><img src={github} alt=""/></a>
+                <a href="https://www.facebook.com/flook.sattawat/" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt=""/></a>
+                <a href="https://www.instagram.com/kasaixkori/" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt=""/></a>
             </div>
           </span>
         </Navbar.Collapse>
