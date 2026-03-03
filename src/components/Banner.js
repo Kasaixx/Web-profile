@@ -8,7 +8,7 @@ export const Banner = () => {
     const toRotate = [ "Web Developer", "Web Desinger", "Mobile App Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300-Math.random()*100);
-    const [index, setIndex] = useState(1);
+    const [,setIndex] = useState(1);
     const period = 2000;
 
     useEffect(() => {
