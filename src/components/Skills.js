@@ -1,5 +1,5 @@
 import { Row, Col, Container } from "react-bootstrap";
-import Carousel from "react-multi-carousel"
+import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import github from '../assets/img/github.png';
 import react from "../assets/img/React-icon.svg.png";
